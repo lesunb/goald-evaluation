@@ -1,0 +1,5 @@
+data <- read.csv(file="plan_size_vs_time.dat" ,head=TRUE,sep="\t")
+setEPS()
+postscript("plan_size_vs_time.eps")
+boxplot(Z~X,data=data, xlab="Size", ylab="Time(ms)")
+dev.off()

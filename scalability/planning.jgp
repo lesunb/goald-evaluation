@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<jGNUplot_config>
+    <version>0.1.2</version>
+    <plot_tile/>
+    <plot_type>THREE_DIM</plot_type>
+    <max_x_range/>
+    <min_x_range/>
+    <max_y_range/>
+    <min_y_range/>
+    <min_z_range/>
+    <min_z_range/>
+    <x_label/>
+    <y_label/>
+    <z_label/>
+    <logscale_x_axis>false</logscale_x_axis>
+    <logscale_y_axis>false</logscale_y_axis>
+    <logscale_z_axis>false</logscale_z_axis>
+    <pre_plot_string>set xrange [] reverse</pre_plot_string>
+    <datasets>
+        <dataset id="0">
+            <class>jgp.JGPDataSet</class>
+            <filename>/home/grodrigues/Dropbox/acad/master/wspc-publish/events/goalp_approach_and_planning/data/restult_30-Aug-2016 13:23:56Plan size.dat</filename>
+            <datastring>1:2:3</datastring>
+            <dataset_title/>
+            <color>ff3333</color>
+            <style>boxes</style>
+            <add_style_opt/>
+            <do_plot>true</do_plot>
+            <pre_process_program/>
+        </dataset>
+    </datasets>
+    <labels/>
+    <variables/>
+</jGNUplot_config>
