@@ -1,8 +1,11 @@
-#install.packages("dplyr")
+#install.packages("magrittr")
+#library(magrittr)
+
+install.packages("dplyr")
 # library(ggplot2)
 library(dplyr)
 
-dataframe <- read.csv(file="scalability_over_plan_size.dat" ,head=TRUE,sep="\t")
+dataframe <- read.csv(file="tsa_dataset1543038419001" ,head=TRUE,sep="\t")
 
 initial_deployment_dam_update <- tbl_df(dataframe) %>% 
   group_by(bundles_count, numberOfGoals, variability) %>%
